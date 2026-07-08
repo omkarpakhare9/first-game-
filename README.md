@@ -12,6 +12,7 @@ assets or IP included).
 - Destroy the enemy tower to win. If your hero falls, it respawns after a few seconds — no game over.
 
 ## Project structure
+<<<<<<< HEAD
 ```
 arena_clash/
   pubspec.yaml
@@ -19,6 +20,8 @@ arena_clash/
     main.dart      # entire game: menu, game loop, combat logic, and UI
 ```
 
+=======
+>>>>>>> Add Arena Clash: original MOBA-style lane-pusher game with champion select
 Everything is in a single `main.dart` file with no external game engine or paid packages —
 just the Flutter SDK — so it's easy to read and modify.
 
@@ -27,6 +30,7 @@ just the Flutter SDK — so it's easy to read and modify.
 1. Install the Flutter SDK if you don't have it: https://docs.flutter.dev/get-started/install
 2. Unzip/copy this `arena_clash` folder to your machine.
 3. From inside the folder, fetch dependencies:
+<<<<<<< HEAD
    ```
    flutter pub get
    ```
@@ -35,6 +39,10 @@ just the Flutter SDK — so it's easy to read and modify.
    flutter run
    ```
    (Use `flutter devices` to see available targets, or `flutter run -d chrome` to try it in a browser.)
+=======
+4. Run on a connected device, emulator, or simulator:
+(Use `flutter devices` to see available targets, or `flutter run -d chrome` to try it in a browser.)
+>>>>>>> Add Arena Clash: original MOBA-style lane-pusher game with champion select
 
 > Note: this project only contains `pubspec.yaml` and `lib/main.dart`. If your Flutter install
 > needs the platform folders (`android/`, `ios/`, etc.) generated, run `flutter create .` inside
